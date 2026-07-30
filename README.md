@@ -40,7 +40,7 @@ Point any MCP client at these servers — an [OpenClaw Launch](https://openclawl
 
 > ⚠️ **BYO credentials.** Most Chinese-platform APIs (微信 / 支付宝 / 钉钉 / 电商 / 券商) require your own registered app credentials and, for the big ones, enterprise (营业执照) verification. These servers connect the API — you supply the keys.
 
-> 🧩 **Also in here:** a [gap map](#gap-map) of 88 Chinese services that have an official API but **no MCP server yet** — pick one and build it.
+> 🧩 **Also in here:** a [gap map](#gap-map) of 85 Chinese services that have an official API but **no MCP server yet** — pick one and build it.
 
 > 🗓️ Last refreshed **2026-07-30**.
 
@@ -213,6 +213,9 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 工商企业大数据 | 👥 [`handaas/mcp-server`](https://github.com/handaas/mcp-server) ⭐8 · [`handaas/enterprise-mcp-server`](https://github.com/handaas/enterprise-mcp-server) | 工商信息 / 风险 / 股权 / 知识产权 (旷湖) |
 | 快递 / 工商 / 发票 / 三要素 | 👥 [`FLYKID/THMCP`](https://github.com/FLYKID/THMCP) ⭐6 | 瞳虎 — logistics, biz-reg, invoice, ID verify |
 | 企业信息收集 | 👥 [`wgpsec/ENScan_GO`](https://github.com/wgpsec/ENScan_GO) ⭐4.5k | ICP备案 / 小程序 / 公众号 — intel tool with MCP support |
+| 中国法定节假日 / 调休 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 某天是否放假/调休上班 + 整年假期表；零配置无需凭证 |
+| Server酱 (微信推送) | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 主动推送通知到你自己的微信；SendKey 免费自助 |
+| 百度翻译 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 多语种文本翻译（标准版免费额度） |
 | 腾讯 Web 搜索 | 🏢 [`Tencent/WebSearchMCP`](https://github.com/Tencent/WebSearchMCP) | web search |
 
 ---
@@ -221,10 +224,12 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 
 ## 🧩 官方 API，暂无 MCP Server · Official API, no MCP server (yet)
 
-88 widely-used Chinese services that ship a **documented first-party API**, but for which we could not find a maintained MCP server while compiling this list (searched 2026-07-30). That is the actual shape of the gap: the ecosystem's problem is not a missing index, it is missing servers.
+85 widely-used Chinese services that ship a **documented first-party API**, but for which we could not find a maintained MCP server while compiling this list (searched 2026-07-30). That is the actual shape of the gap: the ecosystem's problem is not a missing index, it is missing servers.
 
-88 个国内常用服务：官方 API 齐全，但截至 2026-07-30 我们没能找到可用且有人维护的 MCP Server。列在这里有两个用处 —— 一是告诉你这条路目前得自己写，二是每一行都是一个可以动手的项目。
+85 个国内常用服务：官方 API 齐全，但截至 2026-07-30 我们没能找到可用且有人维护的 MCP Server。列在这里有两个用处 —— 一是告诉你这条路目前得自己写，二是每一行都是一个可以动手的项目。
 
+> ✅ **Three rows have already graduated:** 节假日, Server酱 and 百度翻译 now have servers in [`china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) and moved up into 实用工具 above.
+>
 > 🛠️ **Build one and it moves up.** Ship an MCP server for any row here, open a PR, and the row graduates into the main list above with your repo on it. Know of one we missed? Same thing — PR it, we'd rather be corrected than tidy.
 >
 > 💡 **Need it working today?** An agent can call any of these over plain HTTP with your own credentials. If you'd rather not write the plumbing, [OpenClaw Launch 的 /zh/china-apps](https://openclawlaunch.com/zh/china-apps) wraps most of this table behind a hosted proxy (credentials stay server-side, encrypted) — that is where this table comes from.
@@ -239,7 +244,6 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 飞书群机器人 | 🌐 [开发者文档](https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN) | 向飞书群推送文本/富文本（官方自定义机器人） |
 | WxPusher | 🌐 [开发者文档](https://wxpusher.zjiecode.com/docs/) | 向微信推送个人通知（官方 SPT 接口） |
 | PushPlus 推送加 | 🌐 [开发者文档](https://www.pushplus.plus/doc/guide/api.html) | 微信/邮件/App 多渠道通知（官方消息 Token） |
-| Server酱 | 🌐 [开发者文档](https://sct.ftqq.com/sendkey) | 主动推送消息到你的微信（Server酱/方糖） |
 | Bark | 🌐 [开发者文档](https://github.com/Finb/Bark/blob/master/docs/en-us/tutorial.md) | 向自己的 iPhone 推送通知（官方服务） |
 | PushDeer | 🌐 [开发者文档](https://www.pushdeer.com/official.html) | 向自己的手机与 Mac 推送消息（官方在线版） |
 | 极光推送 | 🌐 [开发者文档](https://docs.jiguang.cn/jpush/server/push/server_overview) | 向指定 App 用户发送通知（JPush 官方服务端 API） |
@@ -348,7 +352,6 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 
 | App | 官方 API 文档 · Official docs | 能力 · What an agent can do |
 |---|---|---|
-| 百度翻译 | 🌐 [开发者文档](https://fanyi-api.baidu.com/) | 文本翻译（多语种） |
 | 有道翻译 | 🌐 [开发者文档](https://ai.youdao.com/) | 文本翻译（有道智云） |
 | 腾讯翻译 | 🌐 [开发者文档](https://console.cloud.tencent.com/cam/capi) | 文本翻译（腾讯机器翻译） |
 | 讯飞翻译 | 🌐 [开发者文档](https://console.xfyun.cn/) | 文本翻译（讯飞机器翻译） |
@@ -405,7 +408,6 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | App | 官方 API 文档 · Official docs | 能力 · What an agent can do |
 |---|---|---|
 | 今日诗词 | 🌐 — | 古诗词一言（随机名句） |
-| 节假日 | 🌐 — | 法定节假日与调休安排查询 |
 
 #### † 早期尝试 · Early attempts (unmaintained or near-zero traction)
 
