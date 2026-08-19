@@ -212,7 +212,6 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 中国数据核验 | 👥 [`CCCpan/data-verify-mcp`](https://github.com/CCCpan/data-verify-mcp) ⭐167 | ID / 企业 / 车辆 / OCR / risk |
 | 工商企业大数据 | 👥 [`handaas/mcp-server`](https://github.com/handaas/mcp-server) ⭐8 · [`handaas/enterprise-mcp-server`](https://github.com/handaas/enterprise-mcp-server) | 工商信息 / 风险 / 股权 / 知识产权 (旷湖) |
 | 快递 / 工商 / 发票 / 三要素 | 👥 [`FLYKID/THMCP`](https://github.com/FLYKID/THMCP) ⭐6 | 瞳虎 — logistics, biz-reg, invoice, ID verify |
-| 企业信息收集 | 👥 [`wgpsec/ENScan_GO`](https://github.com/wgpsec/ENScan_GO) ⭐4.5k | ICP备案 / 小程序 / 公众号 — intel tool with MCP support |
 | 中国法定节假日 / 调休 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 某天是否放假/调休上班 + 整年假期表；零配置无需凭证 |
 | Server酱 (微信推送) | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 主动推送通知到你自己的微信；SendKey 免费自助 |
 | 百度翻译 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 多语种文本翻译（标准版免费额度） |
