@@ -42,7 +42,7 @@ Point any MCP client at these servers — an [OpenClaw Launch](https://openclawl
 
 > 🧩 **Also in here:** a [gap map](#gap-map) of 85 Chinese services that have an official API but **no MCP server yet** — pick one and build it.
 
-> 🗓️ Last refreshed **2026-07-30**.
+> 🗓️ Last refreshed **2026-08-19**.
 
 ### Legend
 `🏢` official / first-party · `👥` community · `⭐` GitHub stars (approx, drift over time) · `🌐` hosted / docs link (not a repo)
