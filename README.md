@@ -42,7 +42,7 @@ Point any MCP client at these servers — an [OpenClaw Launch](https://openclawl
 
 > 🧩 **Also in here:** a [gap map](#gap-map) of 91 Chinese services that have an official API but **no MCP server yet** — pick one and build it.
 
-> 🗓️ Last refreshed **2026-09-02**.
+> 🗓️ Links, stars & archive status checked **2026-09-27** · catalog + gap map last re-swept **2026-09-02**.
 
 ### Legend
 `🏢` official / first-party · `👥` community · `⭐` GitHub stars (approx, drift over time) · `🌐` hosted / docs link (not a repo)
@@ -63,7 +63,7 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 阿里云 RDS | 🏢 [`aliyun/alibabacloud-rds-openapi-mcp-server`](https://github.com/aliyun/alibabacloud-rds-openapi-mcp-server) ⭐55 | managed databases |
 | 阿里云 DMS (40+ data sources) | 🏢 [`aliyun/alibabacloud-dms-mcp-server`](https://github.com/aliyun/alibabacloud-dms-mcp-server) ⭐52 | universal data access |
 | 阿里云 DataWorks | 🏢 [`aliyun/alibabacloud-dataworks-mcp-server`](https://github.com/aliyun/alibabacloud-dataworks-mcp-server) ⭐50 | data dev / governance |
-| 阿里云 (full OpenAPI) | 🏢 [`aliyun/alibabacloud-api-mcp-server`](https://github.com/aliyun/alibabacloud-api-mcp-server) ⭐30 | all Alibaba Cloud APIs |
+| 阿里云 (full OpenAPI) | 🏢 [`aliyun/alibabacloud-api-mcp-server`](https://github.com/aliyun/alibabacloud-api-mcp-server) ⭐35 | all Alibaba Cloud APIs |
 | 阿里云 Hologres / ADB / PolarDB / OpenSearch / ESA | 🏢 [hologres](https://github.com/aliyun/alibabacloud-hologres-mcp-server) · [adb-mysql](https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server) · [polardb](https://github.com/aliyun/alibabacloud-polardb-mcp-server) · [opensearch](https://github.com/aliyun/alibabacloud-opensearch-mcp-server) · [esa](https://github.com/aliyun/mcp-server-esa) | per-product servers |
 | 腾讯云 COS | 🏢 [`Tencent/cos-mcp`](https://github.com/Tencent/cos-mcp) ⭐38 | object storage + 数据万象 CI |
 | 腾讯云 CLS 日志 | 🏢 [`Tencent/cls-mcp-server`](https://github.com/Tencent/cls-mcp-server) | log service |
@@ -82,8 +82,8 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 腾讯地图 Tencent Maps | 🏢 [official MCP](https://lbs.qq.com/service/MCPServer/MCPServerGuide/overview) — `https://mcp.map.qq.com/mcp?key=<KEY>` | geocode, POI, routing, weather; remote MCP, key from [console](https://lbs.qq.com/dev/console/application/mine) |
 | 滴滴出行 DiDi | 🏢 official remote MCP — `https://mcp.didichuxing.com/mcp-servers?key=<KEY>` ([portal](https://mcp.didichuxing.com/)) | hail a ride: fare estimate, place order, trip status, cancel + maps; sandbox endpoint `…/mcp-servers-sandbox` |
 | 飞常准 Variflight | 🏢 [`variflight/variflight-mcp`](https://github.com/variflight/variflight-mcp) ⭐31 · [`variflight/tripmatch-mcp`](https://github.com/variflight/tripmatch-mcp) | real-time flight info |
-| 12306 火车票 | 👥 [`Joooook/12306-mcp`](https://github.com/Joooook/12306-mcp) ⭐1.2k · [`drfccv/mcp-server-12306`](https://github.com/drfccv/mcp-server-12306) ⭐377 | train ticket search |
-| 携程 Ctrip | 👥 [`biaowuqiong/ctrip-hotel-skill`](https://github.com/biaowuqiong/ctrip-hotel-skill) | hotel price — Agent Skill via Playwright (not a native MCP server) |
+| 12306 火车票 | 👥 [`Joooook/12306-mcp`](https://github.com/Joooook/12306-mcp) ⭐1.6k · [`drfccv/mcp-server-12306`](https://github.com/drfccv/mcp-server-12306) ⭐377 | train ticket search |
+| 携程 Ctrip | 👥 [`bianwuqiong/ctrip-hotel-skill`](https://github.com/bianwuqiong/ctrip-hotel-skill) | hotel price — Agent Skill via Playwright (not a native MCP server) |
 | 途牛旅游 Tuniu | 🏢 official remote MCP — `https://openapi.tuniu.cn/mcp/hotel` · `…/mcp/flight` ([开放平台](https://open.tuniu.com/mcp/login)) · 🏢 [`tuniucorp/tuniu-cli`](https://github.com/tuniucorp/tuniu-cli) ⭐8 | hotels, domestic flights, tickets, trains, cruises; auth is an `apiKey` request header, not `Authorization: Bearer` |
 | 美团 Meituan | 👥 [`LewisChen1219/Meituan-Mcp-Server-WIP`](https://github.com/LewisChen1219/Meituan-Mcp-Server-WIP) | food ordering (WIP) |
 
@@ -101,13 +101,13 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | 小红书 Xiaohongshu | 👥 [`xpzouying/xiaohongshu-mcp`](https://github.com/xpzouying/xiaohongshu-mcp) ⭐15.6k · [`iFurySt/RedNote-MCP`](https://github.com/iFurySt/RedNote-MCP) ⭐1.1k · [`aki66938/xhs-toolkit`](https://github.com/aki66938/xhs-toolkit) ⭐1.3k | read / search / publish |
 | 微信公众号 (发布) | 👥 [`caol64/wenyan-mcp`](https://github.com/caol64/wenyan-mcp) ⭐1.3k | auto-format & publish Markdown |
 | 微信公众号 (下载) | 👥 [`qiye45/wechatDownload`](https://github.com/qiye45/wechatDownload) ⭐9.2k | batch article download — tool with MCP/Skill support |
-| 微信公众号 (AI 阅读) | 👥 [ReadGZH](https://github.com/sweesama/readgzh) · [接入文档](https://readgzh.site/docs) | hosted remote MCP: public article URL → Markdown; search cached articles only; limited anonymous access, optional API key |
+| 微信公众号 (AI 阅读) | 👥 [ReadGZH](https://github.com/sweesama/readgzh) · [接入文档](https://readgzh.site/docs) | hosted remote MCP: public article URL → Markdown; search cached articles only; limited anonymous access, optional API key; ⚠️ every article read is cached and publicly listed on readgzh.site |
 | 微信读书 WeRead | 👥 [`freestylefly/mcp-server-weread`](https://github.com/freestylefly/mcp-server-weread) ⭐574 | books, notes, highlights |
 | Bilibili | 👥 [`huccihuang/bilibili-mcp-server`](https://github.com/huccihuang/bilibili-mcp-server) ⭐190 · [`34892002/bilibili-mcp-js`](https://github.com/34892002/bilibili-mcp-js) ⭐192 | search, video info |
-| 知乎 Zhihu | 👥 [`iteng007/zhihu-mcp-server`](https://github.com/iteng007/zhihu-mcp-server) (API) · [`Douyh123/zhihu-mcp`](https://github.com/Douyh123/zhihu-mcp) (search/publish) · [`JasonJarvan/Zhihu-Collections-MCP`](https://github.com/JasonJarvan/Zhihu-Collections-MCP) ⭐169 (export) | API access, search, publish, export |
+| 知乎 Zhihu | 👥 [`meurz/zhihu-mcp-server`](https://github.com/meurz/zhihu-mcp-server) (API, archived) · [`Douyh123/zhihu-mcp`](https://github.com/Douyh123/zhihu-mcp) (search/publish) · [`JasonJarvan/Zhihu-Collections-MCP`](https://github.com/JasonJarvan/Zhihu-Collections-MCP) ⭐169 (export) | API access, search, publish, export |
 | 微博 Weibo | 👥 [`qinyuanpei/mcp-server-weibo`](https://github.com/qinyuanpei/mcp-server-weibo) ⭐61 | user / content / hot-search |
 | 抖音 Douyin (发布) | 👥 [`lancelin111/douyin-mcp-server`](https://github.com/lancelin111/douyin-mcp-server) ⭐36 | automated video upload |
-| 抖音 / B站 / 公众号 / 播客 (采集) | 👥 [`chubbyguan/chubbyskills`](https://github.com/chubbyguan/chubbyskills) ⭐657 | content-ingestion Agent Skills + a knowledge-base MCP (not per-app servers) |
+| 抖音 / B站 / 公众号 / 播客 (采集) | 👥 [`chubbyguan/chubbyskills`](https://github.com/chubbyguan/chubbyskills) ⭐1.1k | content-ingestion Agent Skills + a knowledge-base MCP (not per-app servers) |
 
 ## 🛒 电商 · E-commerce
 
@@ -130,7 +130,7 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | App | Server | Notes |
 |---|---|---|
 | 飞书 / Lark | 🏢 [`larksuite/lark-openapi-mcp`](https://github.com/larksuite/lark-openapi-mcp) ⭐816 · 👥 [`ztxtxwd/open-feishu-mcp-server`](https://github.com/ztxtxwd/open-feishu-mcp-server) ⭐85 | docs, sheets, IM, calendar |
-| 语雀 Yuque | 🏢 [`yuque/yuque-mcp-server`](https://github.com/yuque/yuque-mcp-server) ⭐234 (server) · [`yuque/yuque-ecosystem`](https://github.com/yuque/yuque-ecosystem) ⭐221 (server+skills+plugin bundle) · 👥 [`yehuoshun/yuque-ai-mcp`](https://github.com/yehuoshun/yuque-ai-mcp) ⭐7 (73 tools, full API) | knowledge base CRUD, search, boards, statistics, recycle |
+| 语雀 Yuque | 🏢 [`yuque/yuque-mcp-server`](https://github.com/yuque/yuque-mcp-server) ⭐234 (server) · [`yuque/yuque-ecosystem`](https://github.com/yuque/yuque-ecosystem) ⭐221 (server+skills+plugin bundle) · 👥 [`yehuoshun/yuque-ai-mcp`](https://github.com/yehuoshun/yuque-ai-mcp) ⭐7 (62 tools; 17 need a browser session cookie) | knowledge base CRUD, search, boards, statistics, recycle |
 | 钉钉 DingTalk | 👥 [`hykfft/mcp-dingtalk-doc`](https://github.com/hykfft/mcp-dingtalk-doc) ⭐55 (docs) · [`keithyt06/quick-dingtalk-mcp`](https://github.com/keithyt06/quick-dingtalk-mcp) ⭐8 (user identity, wraps the official `dws` CLI) · [`Shawyeok/mcp-dingding-bot`](https://github.com/Shawyeok/mcp-dingding-bot) ⭐12 (群机器人) | docs, personal identity, group robot |
 | 腾讯文档 Tencent Docs | 🏢 official remote MCP — `https://docs.qq.com/openapi/mcp` ([auth docs](https://docs.qq.com/open/auth/mcp.html)) | read/write docs, sheets, slides |
 | 腾讯会议 Tencent Meeting | 🏢 official remote MCP — `https://mcp.meeting.tencent.com/mcp/wemeet-open/v1` ([docs](https://meeting.tencent.com/ai-skill.html)) | schedule meetings, participants, recordings, transcripts |
@@ -157,10 +157,10 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 
 | App | Server | Notes |
 |---|---|---|
-| FinanceMCP (综合) | 👥 [`guangxiangdebizi/FinanceMCP`](https://github.com/guangxiangdebizi/FinanceMCP) ⭐660 | Tushare + Binance — A股/macro/crypto, real-time |
+| FinanceMCP (综合) | 👥 [`guangxiangdebizi/FinanceMCP`](https://github.com/guangxiangdebizi/FinanceMCP) ⭐861 | Tushare + Binance — A股/macro/crypto, real-time |
 | AKShare | 👥 [`aahl/mcp-aktools`](https://github.com/aahl/mcp-aktools) ⭐393 · [`zwldarren/akshare-one-mcp`](https://github.com/zwldarren/akshare-one-mcp) ⭐226 | stocks, crypto, analysis |
 | Tushare | 👥 [`zlinzzzz/finData-mcp-server`](https://github.com/zlinzzzz/finData-mcp-server) ⭐58 · [`hanxuanliang/tsrs-mcp-server`](https://github.com/hanxuanliang/tsrs-mcp-server) ⭐27 | financial data |
-| 东方财富 / 同花顺 | 👥 [`noimank/FNewsCrawler`](https://github.com/noimank/FNewsCrawler) ⭐109 · [`27dream/mcp-eastmoney`](https://github.com/27dream/mcp-eastmoney) | quotes, news, fund flow |
+| 东方财富 / 同花顺 | 👥 [`noimank/FNewsCrawler`](https://github.com/noimank/FNewsCrawler) ⭐109 (archived) · [`27dream/mcp-eastmoney`](https://github.com/27dream/mcp-eastmoney) | quotes, news, fund flow |
 | A股 Skill 集合 | 👥 [`shouldnotappearcalm/a-share-skill`](https://github.com/shouldnotappearcalm/a-share-skill) ⭐232 | quant, K-line, indicators — Agent Skills collection (not an MCP server) |
 
 > 💡 **券商 (brokerages):** 广发证券, 国泰君安, 中信 etc. have launched internal AI "Skills" (智能投顾 贝塔牛, 易淘金, GF-Quant…), but these are app-internal agent capabilities, **not public MCP servers** you can connect to. For programmatic A股 market data, use AKShare / Tushare / 东方财富 above. PR a row if/when any brokerage ships a public MCP.
@@ -170,7 +170,7 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | Domain | Server | Notes |
 |---|---|---|
 | 中国法律法规 | 👥 [`Yuhamixli/Law-Crawler-RPA-RAG-MCP`](https://github.com/Yuhamixli/Law-Crawler-RPA-RAG-MCP) ⭐31 | crawl 中国法律法规 + RAG Q&A |
-| 法规检索 / 案例 | 👥 [`moyupeng0422/legal-tools`](https://github.com/moyupeng0422/legal-tools) ⭐19 | Chinese-law MCP + Skills: statutes, cases |
+| 法规检索 / 案例 | 👥 [`moyupeng0422/legal-tools`](https://github.com/moyupeng0422/legal-tools) ⭐31 | Chinese-law MCP + Skills: statutes, cases |
 
 ## 📚 学术 · Academic & Research
 
@@ -193,13 +193,13 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | App | Server | Notes |
 |---|---|---|
 | 网易云 / QQ音乐 / 酷狗 / 酷我 | 👥 [`ELDment/Meting-Agent`](https://github.com/ELDment/Meting-Agent) ⭐105 | multi-platform music API proxy for AI |
-| 网易云音乐 NetEase | 👥 [`Cheiineeey/netease-music-mcp`](https://github.com/Cheiineeey/netease-music-mcp) ⭐95 | play, lyrics sync, playlist mgmt |
+| 网易云音乐 NetEase | 👥 [`Cheiineeey/netease-music-mcp`](https://github.com/Cheiineeey/netease-music-mcp) ⭐110 | play, lyrics sync, playlist mgmt |
 
 ## 🏠 智能家居 / IoT · Smart Home
 
 | App | Server | Notes |
 |---|---|---|
-| 小米 米家 Mijia | 👥 [`handsomejustin/mijia-control`](https://github.com/handsomejustin/mijia-control) ⭐63 | 米家 × MCP × HomeKit smart-home bridge |
+| 小米 米家 Mijia | 👥 [`handsomejustin/mijia-control`](https://github.com/handsomejustin/mijia-control) ⭐72 | 米家 × MCP × HomeKit smart-home bridge |
 
 ## 🤖 大模型与 AI 服务 · LLM & AI Services
 
@@ -218,12 +218,12 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 
 | Tool | Server | Notes |
 |---|---|---|
-| 中国数据核验 | 👥 [`CCCpan/data-verify-mcp`](https://github.com/CCCpan/data-verify-mcp) ⭐165 | ID / 企业 / 车辆 / OCR / risk |
+| 中国数据核验 | 👥 [`CCCpan/Gebaini`](https://github.com/CCCpan/Gebaini) ⭐165 | ID / 企业 / 车辆 / OCR / risk |
 | 工商企业大数据 | 👥 [`handaas/mcp-server`](https://github.com/handaas/mcp-server) ⭐12 · [`handaas/enterprise-mcp-server`](https://github.com/handaas/enterprise-mcp-server) | 工商信息 / 风险 / 股权 / 知识产权 (旷湖) |
 | 快递 / 工商 / 发票 / 三要素 | 👥 [`FLYKID/THMCP`](https://github.com/FLYKID/THMCP) ⭐6 | 瞳虎 — logistics, biz-reg, invoice, ID verify |
-| 中国法定节假日 / 调休 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 某天是否放假/调休上班 + 整年假期表；零配置无需凭证 |
-| Server酱 (微信推送) | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 主动推送通知到你自己的微信；SendKey 免费自助 |
-| 百度翻译 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 多语种文本翻译（标准版免费额度） |
+| 中国法定节假日 / 调休 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 某天是否放假/调休上班 + 整年假期表；零配置无需凭证 — ⚠️ repo archived, unmaintained |
+| Server酱 (微信推送) | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 主动推送通知到你自己的微信；SendKey 免费自助 — ⚠️ repo archived, unmaintained |
+| 百度翻译 | 👥 [`zackchewa/china-mcp-servers`](https://github.com/zackchewa/china-mcp-servers) | 多语种文本翻译（标准版免费额度） — ⚠️ repo archived, unmaintained |
 | 腾讯 Web 搜索 | 🏢 [`Tencent/WebSearchMCP`](https://github.com/Tencent/WebSearchMCP) | web search |
 | 博查 AI 搜索 Bocha | 🏢 [`BochaAI/bocha-search-mcp`](https://github.com/BochaAI/bocha-search-mcp) ⭐177 | Chinese web search — pages, news, images; the practical way to give a CN agent fresh sources |
 | TextIn 合合信息 (IntSig) | 🏢 [`intsig-textin/textin-mcp`](https://github.com/intsig-textin/textin-mcp) ⭐28 | document parsing: PDF / image → Markdown, preserving headings, tables and layout |
@@ -449,7 +449,6 @@ Not promoted into the main list — listed so you don't redo the work, and so yo
 | 明道云 Mingdao | [`mingdaocloud/mcp-mingdao`](https://github.com/mingdaocloud/mcp-mingdao) ⭐0 | 2025-10; org looks vendor-adjacent but we could not confirm first-party — untagged on purpose |
 | 顺丰速运 SF Express | [`asgard-ai-platform/mcp-sf-express`](https://github.com/asgard-ai-platform/mcp-sf-express) ⭐0 | 2026-05 |
 | 涂鸦智能 Tuya | [`Elyd0wn/mcp-tuya-local`](https://github.com/Elyd0wn/mcp-tuya-local) ⭐0 | 2026-03; local-network control, not the cloud API |
-| 声网 Agora | [`cioffiAI/mcp-agora`](https://github.com/cioffiAI/mcp-agora) ⭐5 | 2026-07 |
 | 和风天气 QWeather | [`NovaVoyager/mcp_qweather`](https://github.com/NovaVoyager/mcp_qweather) ⭐2 · [`xjtuwangke/mcp-qweather`](https://github.com/xjtuwangke/mcp-qweather) ⭐0 | 2025-05 / 2026-05 |
 ---
 
