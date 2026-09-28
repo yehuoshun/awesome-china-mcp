@@ -129,7 +129,7 @@ The deepest official coverage in the whole ecosystem — Alibaba Cloud alone shi
 | App | Server | Notes |
 |---|---|---|
 | 飞书 / Lark | 🏢 [`larksuite/lark-openapi-mcp`](https://github.com/larksuite/lark-openapi-mcp) ⭐816 · 👥 [`ztxtxwd/open-feishu-mcp-server`](https://github.com/ztxtxwd/open-feishu-mcp-server) ⭐85 | docs, sheets, IM, calendar |
-| 语雀 Yuque | 🏢 [`yuque/yuque-mcp-server`](https://github.com/yuque/yuque-mcp-server) ⭐234 (server) · [`yuque/yuque-ecosystem`](https://github.com/yuque/yuque-ecosystem) ⭐221 (server+skills+plugin bundle) | knowledge base CRUD |
+| 语雀 Yuque | 🏢 [`yuque/yuque-mcp-server`](https://github.com/yuque/yuque-mcp-server) ⭐234 (server) · [`yuque/yuque-ecosystem`](https://github.com/yuque/yuque-ecosystem) ⭐221 (server+skills+plugin bundle) · 👥 [`yehuoshun/yuque-ai-mcp`](https://github.com/yehuoshun/yuque-ai-mcp) ⭐7 (73 tools, full API) | knowledge base CRUD, search, boards, statistics, recycle |
 | 钉钉 DingTalk | 👥 [`hykfft/mcp-dingtalk-doc`](https://github.com/hykfft/mcp-dingtalk-doc) ⭐55 (docs) · [`keithyt06/quick-dingtalk-mcp`](https://github.com/keithyt06/quick-dingtalk-mcp) ⭐8 (user identity, wraps the official `dws` CLI) · [`Shawyeok/mcp-dingding-bot`](https://github.com/Shawyeok/mcp-dingding-bot) ⭐12 (群机器人) | docs, personal identity, group robot |
 | 腾讯文档 Tencent Docs | 🏢 official remote MCP — `https://docs.qq.com/openapi/mcp` ([auth docs](https://docs.qq.com/open/auth/mcp.html)) | read/write docs, sheets, slides |
 | 腾讯会议 Tencent Meeting | 🏢 official remote MCP — `https://mcp.meeting.tencent.com/mcp/wemeet-open/v1` ([docs](https://meeting.tencent.com/ai-skill.html)) | schedule meetings, participants, recordings, transcripts |
